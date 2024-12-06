@@ -1,0 +1,23 @@
+2024-11-17T23:32:00.850+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] c.logging.SpringBootLoggingApplication   : Starting SpringBootLoggingApplication using Java 17.0.9 with PID 10296 (F:\spring boot project\Spring-Boot-Logging\target\classes started by Ashutosh in F:\spring boot project\Spring-Boot-Logging)
+2024-11-17T23:32:00.862+05:30 DEBUG 10296 --- [Spring-Boot-Logging] [main] c.logging.SpringBootLoggingApplication   : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-17T23:32:00.866+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] c.logging.SpringBootLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-17T23:32:04.081+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-17T23:32:04.123+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-17T23:32:04.124+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-17T23:32:04.306+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-17T23:32:04.307+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3223 ms
+2024-11-17T23:32:05.540+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-17T23:32:05.604+05:30  INFO 10296 --- [Spring-Boot-Logging] [main] c.logging.SpringBootLoggingApplication   : Started SpringBootLoggingApplication in 6.081 seconds (process running for 7.117)
+2024-11-17T23:32:22.581+05:30  INFO 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-17T23:32:22.582+05:30  INFO 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-17T23:32:22.585+05:30  INFO 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-17T23:32:22.715+05:30  INFO 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-1] com.logging.controller.MainController    : This is api calling : infoashutosh
+2024-11-17T23:32:22.719+05:30 DEBUG 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-1] com.logging.controller.MainController    : This is api calling : debug
+2024-11-17T23:32:22.719+05:30 ERROR 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-1] com.logging.controller.MainController    : This is api calling : error
+2024-11-17T23:32:22.720+05:30  WARN 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-1] com.logging.controller.MainController    : This is api calling : warn
+2024-11-17T23:32:22.720+05:30 TRACE 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-1] com.logging.controller.MainController    : This is api calling : trace
+2024-11-17T23:32:51.516+05:30  INFO 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-2] com.logging.controller.MainController    : This is api calling : infogautam
+2024-11-17T23:32:51.517+05:30 DEBUG 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-2] com.logging.controller.MainController    : This is api calling : debug
+2024-11-17T23:32:51.517+05:30 ERROR 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-2] com.logging.controller.MainController    : This is api calling : error
+2024-11-17T23:32:51.517+05:30  WARN 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-2] com.logging.controller.MainController    : This is api calling : warn
+2024-11-17T23:32:51.517+05:30 TRACE 10296 --- [Spring-Boot-Logging] [http-nio-8080-exec-2] com.logging.controller.MainController    : This is api calling : trace
